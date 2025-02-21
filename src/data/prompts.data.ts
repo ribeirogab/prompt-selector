@@ -1,4 +1,4 @@
-import crypto from 'node:crypto';
+import crypto from 'crypto';
 
 export const prompts = [
   "A suspenseful, ultra-realistic video captured at night in a dark, eerie backyard, mimicking amateur found-footage style with poor Snapchat-like quality. The video begins with a shaky flashlight beam illuminating patches of dry grass and dirt as the person recording hides behind an object, breathing shakily. Slowly, a terrifying humanoid creature enters the frame, crawling on all fours with unnatural, jerky movements. Its pale, sickly skin is faintly visible in the dim light, and its long, tangled black hair hangs in front of its face. The creature's wide mouth is frozen open, showing jagged teeth, but it emits no sound. The video keeps viewers on edge as the camera shakes from fear, and the creature appears unaware of being watched, pausing only briefly before crawling further across the yard. Shadows stretch eerily on the ground, adding to the unsettling tone. The video ends abruptly, with the flashlight flickering out as the camera shifts, heightening the suspense and mystery. Posted on Snapchat. Poor Quality Footage.",
