@@ -19,15 +19,15 @@ export default function PromptsPage() {
     <div className="container mx-auto px-4 py-8">
       <div className="flex flex-col gap-8 max-w-2xl mx-auto">
         <div className="flex justify-between items-center">
-          <h1 className="text-4xl font-bold">All Prompts</h1>
-          <Button variant="outline" asChild>
-            <Link href="/">Back Home</Link>
+          <h1 className="text-4xl font-bold">prompts</h1>
+          <Button variant="ghost" asChild>
+            <Link href="/">back home</Link>
           </Button>
         </div>
 
         <Input
           type="search"
-          placeholder="Search prompts..."
+          placeholder="search prompts..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           className="max-w-md"
