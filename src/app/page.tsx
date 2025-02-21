@@ -64,11 +64,7 @@ export default function Home() {
 
         <div className="w-full mt-8">
           {selectedPrompt && (
-            <PromptCard
-              className="h-[300px] max-h-[300px] overflow-auto"
-              prompt={selectedPrompt}
-              showCopyButton={false}
-            />
+            <PromptCard prompt={selectedPrompt} showCopyButton={false} />
           )}
         </div>
       </div>
